@@ -7,7 +7,7 @@ ReactDOM.render(
  document.getElementById("root"))
 
  */
- function Navbar() {
+/*  function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="#">Navbar</a>
@@ -59,3 +59,49 @@ ReactDOM.render(
 
     document.getElementById("root")
 )
+ */
+
+// challenge 3
+// Imperative ways to program
+/* - Create a new h1 element
+- Give it some textContent
+- Give it a class name of "header"
+- append it as a child of the div#root */
+/* const root = document.getElementById("root")
+const h1 = document.createElement("h1")
+h1.textContent = "Hello World!"
+h1.className = "header"
+root.appendChild(h1)
+ */
+
+//with React
+/* ReactDOM.render(<h1 className="header">Hello world!</h1>, document.getElementById("root"))
+ */
+
+//JSX
+/* ReactDOM.render(<h1>JSX</h1>, document.getElementById("root"))
+
+
+Challenge: 
+
+Create a navbar in JSX:
+    - Use the semantic `nav` element as the parent wrapper
+    - Have an h1 element with the brand name of your "website"
+    - Insert an unordered list for the other nav elements
+        - Inside the `ul`, have three `li`s for "Pricing",
+        "About", and "Contact"
+    - Don't worry about styling yet - it'll just be plain-looking HTML for now
+
+ */
+/* const navbar = (
+    <nav>
+        <h1>My Website</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById("root")) */
